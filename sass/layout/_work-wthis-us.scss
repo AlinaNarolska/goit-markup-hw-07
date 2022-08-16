@@ -1,7 +1,7 @@
 .datum__icons-functions{
 	@extend %aling;
 	justify-content: center;
-	@include dimensions(270px.120px);
+	@include dimensions(270px,120px);
 	background-color: var(--further-color);
 	border-radius: 4px;
 	margin-bottom: 30px;

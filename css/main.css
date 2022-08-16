@@ -49,7 +49,7 @@
   transition-timing-function: var(--transition-function);
 }
 
-.footer-form-submit, .footer__source, .footer, .companies__link, .social-list-link, .description-item, .contacts, .menu, .navigation, .contact-mail,
+.footer-form-submit, .footer__source, .footer, .companies__link, .social-list-link, .description-item, .datum__icons-works, .datum__icons-functions, .contacts, .menu, .navigation, .contact-mail,
 .contact-phone, .page-header-container, .modal-form__check-desc, .modal-close-btn {
   display: flex;
   align-items: center;
@@ -221,7 +221,7 @@ button {
 
 .modal-form__information {
   font-size: 20px;
-  font-weight: var(--extra-font-weight);
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   letter-spacing: var(--main-letter-spacing);
@@ -240,8 +240,8 @@ button {
 .modal-form__input-desc {
   display: block;
   font-size: 12px;
-  font-weight: var(--main-font-weight);
-  line-height: 1.14;
+  font-weight: 400;
+  line-height: 1.0833333333;
   margin-bottom: 4px;
   color: var(--plus-color);
 }
@@ -334,9 +334,9 @@ button {
   display: block;
   min-width: 200px;
   align-self: center;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: var(--secondary-letter-spacing);
   background-color: var(--accent-color);
   color: var(--staple-color);
@@ -362,10 +362,10 @@ button {
   overflow-y: scroll;
   transform: translate(0, 101%);
   transition-property: color;
-  font-family: var(--main-type);
-  font-style: normal;
-  font-weight: var(--main-font-weight);
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5555555556;
+  font-style: normal;
   line-height: 1.55rem;
   letter-spacing: var(--main-letter-spacing);
   color: var(--staple-color);
@@ -376,9 +376,9 @@ button {
   margin-right: 93px;
   margin-left: 0;
   font-family: var(--second-type);
-  font-weight: var(--extra-font-weight);
   font-size: 26px;
-  line-height: var(--secondary-line-height);
+  font-weight: 700;
+  line-height: 1.1538461538;
   color: var(--second-color);
 }
 
@@ -478,19 +478,19 @@ button {
 .main-title {
   width: 696px;
   margin-bottom: 30px;
-  font-weight: var(--staples-front-weight);
   font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3636363636;
   letter-spacing: var(--secondary-letter-spacing);
-  line-height: 1.36;
   color: var(--staple-color);
 }
 
 .but-regist {
   display: inline-block;
   min-width: 200px;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: var(--secondary-letter-spacing);
   background: var(--accent-color);
   color: var(--staple-color);
@@ -502,9 +502,7 @@ button {
 }
 
 .datum__icons-functions {
-  display: flex;
   justify-content: center;
-  align-items: center;
   width: 270px;
   height: 120px;
   background-color: var(--further-color);
@@ -513,9 +511,7 @@ button {
 }
 
 .datum__icons-works {
-  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 30px;
 }
 
@@ -536,15 +532,17 @@ button {
 
 .datum__sub-title {
   margin-bottom: 9px;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--main-size);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--second-color);
 }
 
 .datum__middle-title {
-  font-weight: var(--main-font-weight);
-  line-height: 1.71;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7142857143;
   color: var(--plus-color);
 }
 
@@ -555,9 +553,9 @@ button {
 .description {
   margin-bottom: 50px;
   text-align: center;
-  font-weight: var(--extra-font-weight);
   font-size: 36px;
-  line-height: 1.16;
+  font-weight: 700;
+  line-height: 1.1666666667;
   color: var(--second-color);
 }
 
@@ -576,8 +574,9 @@ button {
   width: 100%;
   height: 70px;
   bottom: 0;
-  font-weight: var(--extra-font-weight);
-  line-height: 1.14rem;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--staple-color);
   background-color: rgba(47, 48, 58, 0.8);
@@ -615,17 +614,17 @@ button {
 
 .employees__name {
   margin-bottom: 10px;
-  font-weight: var(--secondary-font-weight);
-  font-size: var(--secondary-size);
-  line-height: var(--secondary-line-height);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.1875;
   text-align: center;
   color: var(--second-color);
 }
 
 .employees__position {
-  font-weight: var(--main-font-weight);
-  font-size: var(--secondary-size);
-  line-height: var(--secondary-line-height);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1875;
   text-align: center;
   color: var(--plus-color);
   margin-bottom: 16px;
@@ -692,9 +691,9 @@ button {
   padding-bottom: 6px;
   padding-right: 22px;
   padding-left: 22px;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.88;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.625;
   letter-spacing: var(--secondary-letter-spacing);
   color: var(--second-color);
   background-color: var(--further-color);
@@ -742,17 +741,17 @@ button {
 
 .gallery__suptitle {
   margin-bottom: 4px;
-  font-weight: var(--extra-font-weight);
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: var(--secondary-letter-spacing);
   color: var(--second-color);
 }
 
 .gallery__title {
-  font-weight: var(--main-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
   color: var(--plus-color);
 }
 
@@ -766,9 +765,9 @@ button {
   display: block;
   margin-bottom: 20px;
   font-family: var(--second-type);
-  font-weight: var(--extra-font-weight);
   font-size: 26px;
-  line-height: var(--secondary-line-height);
+  font-weight: 700;
+  line-height: 1.1538461538;
   text-decoration: none;
   color: var(--staple-color);
 }
@@ -782,8 +781,9 @@ button {
 
 .contact-map {
   width: 240px;
-  font-weight: var(--secondary-font-weight);
-  line-height: 1.71;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7142857143;
   color: var(--staple-color);
   transition-property: color;
 }
@@ -803,9 +803,9 @@ button {
 .footer__items {
   margin-bottom: 20px;
   font-family: var(--main-type);
-  font-weight: var(--extra-font-weight);
-  font-size: var(--main-size);
-  line-height: 1.14;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1428571429;
   letter-spacing: var(--main-letter-spacing);
   text-transform: uppercase;
   color: var(--staple-color);
@@ -848,9 +848,9 @@ button {
 
 .footer__modal-information {
   margin-bottom: 20px;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.14;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.1875;
   letter-spacing: var(--main-letter-spacing);
   text-transform: uppercase;
   color: var(--staple-color);
@@ -863,8 +863,8 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: var(--main-font-weight);
-  size: var(--secondary-size);
+  font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   background: var(--auxiliary-color);
   padding-left: 42px;
@@ -887,9 +887,9 @@ button {
   justify-content: center;
   width: 200px;
   height: 50px;
-  font-weight: var(--extra-font-weight);
-  font-size: var(--secondary-size);
-  line-height: 1.87;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
   letter-spacing: var(--secondary-letter-spacing);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
