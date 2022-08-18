@@ -45,6 +45,9 @@
 }
 .gallery__link{
 	display:block;
+	transition-property: color, background-color,box-shadow;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 	&:hover,
 	&:focus{
