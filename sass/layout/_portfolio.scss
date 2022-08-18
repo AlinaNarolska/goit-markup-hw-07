@@ -17,8 +17,9 @@
 	border:none;
 	border-radius: 4px;
 	cursor: pointer;
-	transition-property: color;
-	@extend %animation;
+	transition-property: color, background-color,box-shadow;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 
 &:hover,
@@ -46,7 +47,7 @@
 	display:block;
 	
 	&:hover,
-    &:focus{
+	&:focus{
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 &:hover .overlay,

@@ -11,7 +11,9 @@
 	padding: 0;
 	color:var(--second-color);
 	transition-property: color, border-color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
+
  &:hover,
  &:focus{
 	color: var(--accent-color);

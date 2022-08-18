@@ -36,7 +36,8 @@
 	color: var(--staple-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition-property:color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 	&:hover,
 	&:focus {

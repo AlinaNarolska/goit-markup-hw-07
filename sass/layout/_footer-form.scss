@@ -21,7 +21,8 @@
 	background: var(--auxiliary-color);
 	padding-left: 42px;
 	transition-property: color,background-color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 
 	
 	&:focus{
@@ -48,10 +49,11 @@
 	background: var(--auxiliary-color);
 	color: var(--staple-color);
 	transition-property:background-color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 	&:hover,
-    &:focus{
+	&:focus{
 	background-color: var(--hover-assent-color);
 }
 }
@@ -61,6 +63,7 @@
 	color:var(--acent-color);
 	transform: translateY(-50%);
 	transition-property:color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 }

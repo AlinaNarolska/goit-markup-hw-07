@@ -11,7 +11,8 @@
 	border-radius: 4px;
 	color:var(--extra-color);
 	transition-property: color,border;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 &:hover,
 &:focus{

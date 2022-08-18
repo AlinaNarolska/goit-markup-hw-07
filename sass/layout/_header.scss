@@ -25,7 +25,8 @@
 	letter-spacing: 0.02em;
 	color: var(--plus-color);
 	transition-property: color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 }
 
@@ -86,7 +87,8 @@
 	letter-spacing: 0.02em;
 	color: var(--second-color);
 	transition-property: color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	&:hover,
 	&:focus {
 	color: var(--accent-color);

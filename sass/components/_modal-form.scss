@@ -38,7 +38,8 @@
 	left:12px;
 	transform: translateY(-50%);
 	transition-property:fill;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	cursor: pointer;
 }
 .modal-form__input-wrapper:focus-within .modal-form__input,
@@ -59,7 +60,8 @@
 	border-radius: 4px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	transition-property: color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	cursor: pointer;
 	
 	&::placeholder{
@@ -80,7 +82,9 @@
 	background-position: center;
 	background-color:var(--accent-color);
 	transition-property: color,background-color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
+
 
 }
 
@@ -116,9 +120,10 @@
 	color: var(--staple-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition-property:box-shadow,background-color;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	&:hover,
-    &:focus{
+	&:focus{
 	background: var(--hover-assent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }

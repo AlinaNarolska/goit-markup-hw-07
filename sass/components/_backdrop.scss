@@ -9,7 +9,9 @@
 	opacity: 1;
 	visibility:visible;
 	transition-property: opacity,visibility;
-	@extend %animation;
+	transition-duration:var(--transition-duration);
+    transition-timing-function:var(--transition-function);
+	
 	
 &.is-hidden {
 	opacity: 0;

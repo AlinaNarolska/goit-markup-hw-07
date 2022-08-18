@@ -47,8 +47,9 @@
 	border-radius: 50%;
 	background-color: var(--staple-color);
 	color: var(--extra-color);
-	transition-property: color;
-	@extend %animation;
+	transition-property: color,background-color;
+	transition-duration:var(--transition-duration);
+	transition-timing-function:var(--transition-function);
 	
 &:hover,
 &:focus{
